@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('cloning') {
-            steps {
-                echo 'cloning'
-            }
-        }
          stage('build job') {
             steps {
                 echo 'build job'
